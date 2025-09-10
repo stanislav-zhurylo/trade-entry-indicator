@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "trade-entry-indicator [DEBUG]",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--debug"
+            ],
+            "justMyCode": true
+        }
+    ]
+}
